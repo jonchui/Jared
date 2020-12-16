@@ -14,6 +14,7 @@ public enum Compare: String, Codable {
     case `is`
     case containsURL
     case isReaction
+    case isMFA
 }
 
 public struct Route: Decodable {

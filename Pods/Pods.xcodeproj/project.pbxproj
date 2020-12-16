@@ -7,155 +7,155 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		014755E65418CD5AF52DADB2A996A282 /* HTTPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7633D845CC3A8BFAED306F786E89E99F /* HTTPMessage.swift */; };
-		084EF887F460701C998C709FC788E30D /* HTTPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0C55D2F2166D4FDCD1CF5A9E9AF61 /* HTTPStatus.swift */; };
-		0A6B30693029C3167ABF81C176C862B5 /* WebSocketMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1740E5BD6BEF733DE50F322D1650A20 /* WebSocketMessageHandler.swift */; };
-		11B3AC7FDE6F9CD5E462485A15FB422C /* HTTPHeader+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D625C1B853A921CF266397790F3E119 /* HTTPHeader+Common.swift */; };
-		1619FB0C0F1D696B6BAB929152CD3883 /* WebSocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD323E28EF2F07845A1B179147507715 /* WebSocketConnection.swift */; };
+		0042A2A8D61396E2AAE972D8CF382FE1 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D7C4961F33B3C735D3F4C3429D042E /* CocoaAsyncSocket.framework */; };
+		03EFDBF65DDDA8F3D79978DA9BF235DA /* TLSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361800ACC7FB5618386CAA9CE6EA700 /* TLSConfig.swift */; };
+		09C39545C2A2D3E34C167813F10EEAFB /* WebSocketError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B978B3339F1107CB1F37E83D121995 /* WebSocketError.swift */; };
+		16AD82CE4F10923BC755FB3AD832BC8E /* WebSocketClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65091330424EFC326603C3690D794F /* WebSocketClientError.swift */; };
 		181C81C739F806BCDD6F760FD30A01FB /* CoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29D103776CD827E7492EC843963668F1 /* CoreServices.framework */; };
-		197367014D9277BB5A14837284550878 /* HTTPErrorDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0304B9D4A0B3939F6E90D53DAA5B9DEE /* HTTPErrorDefaultHandler.swift */; };
+		1983B20FA97E09721E9E764F4DEFD8A7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112654996F6D66FE71D14813F37D8DE6 /* Cocoa.framework */; };
+		1A7D9CF89DD1AB985393BEC6BD75C60A /* HTTPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7633D845CC3A8BFAED306F786E89E99F /* HTTPMessage.swift */; };
 		1C58A8E4E2F1DB021D8057DFC98E85D8 /* HTTPParserC-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8C858033635530860EBD41800050496D /* HTTPParserC-dummy.m */; };
 		1C7C608091334B29AA1F96D400B24326 /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = EE1F54572501738AD88232FF61B0E7AC /* GCDAsyncSocket.m */; };
-		1D4957A9600A28BA04D566939C34AB2A /* Pods-Jared-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2865499A96567B4EAF0A73A75445F5F1 /* Pods-Jared-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		218EE3716F80587F01B6832F1EACE2F3 /* UInt+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817734E99A23DE4E780F8BFFBD40B721 /* UInt+Ext.swift */; };
+		2157ACED6AC272AC23EF64EE03B77C2A /* WebSocketMessageDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA406883D216D201053ACB6E08F7E7F /* WebSocketMessageDefaultHandler.swift */; };
+		237D264D0D5D2DA87B32DE15ADD9A793 /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9B0B30362D92338330E8ADFD74CC2 /* HTTPError.swift */; };
+		26BF6CF20D1C6D5B9FFB71EC9C11DCF9 /* WebSocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0C632B007A9045B8D1683C8AD3CC2 /* WebSocketParser.swift */; };
 		2922C954DCA50DB1C087E9E9C9440393 /* CocoaAsyncSocket-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 338F2D186B3557402D65AD13C529669D /* CocoaAsyncSocket-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2CE2EDBAD5B99540053E0C551F86F358 /* WebSocketMessage+Write.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D095C2A0E90E0134594FB9CBFA3CDB6 /* WebSocketMessage+Write.swift */; };
-		2D56C2043D107454B82BA826455DFCB4 /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDDE1727353BCB976A575890878815 /* DispatchTimer.swift */; };
-		2F061C8AA9875557042578D02F0C13DE /* Pods-Jared-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 775D717880C10F2181A73B1490748A4D /* Pods-Jared-dummy.m */; };
-		31DD4BF0712B434E2D0CF31F9227DF66 /* Pods-JaredTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 903D1DC257DBE5C93FB00BAF841FAE7E /* Pods-JaredTests-dummy.m */; };
-		34199C85F5C3CDA9DA16BEEB8DE71815 /* HTTPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055E4E80CA69C003613C3580164BCA6 /* HTTPConfig.swift */; };
-		35D18FBAC5710ACD3DF74C813C523D33 /* HTTPParserC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA28B44F88FEF795C84DB575EA322B11 /* HTTPParserC.framework */; };
-		36F55270B0F12C906F53FAD3EDB30AC9 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5760B293DAC1CB88C8C46491038CD /* Endpoint.swift */; };
-		3B51D730EF14B0AA10C44569DF73B9BF /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084A5695F244A11718E74DB121D6C0B /* URL+Ext.swift */; };
-		3C77965415676ACA1CFC0A1CBDDB8B6B /* HTTPWebSocketHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9823805D515F81DAD3500E42D9D1396C /* HTTPWebSocketHandler.swift */; };
-		3CDF11FD188DF0EC8D249FE7DB435C15 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112654996F6D66FE71D14813F37D8DE6 /* Cocoa.framework */; };
-		3FA4DC4C3752BD5BFB55520A0FEA9E24 /* NSRegularExpression+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340C55F828449E76D0CF9375BF2741F /* NSRegularExpression+Ext.swift */; };
-		4086CFF4EDB78EEA465DAECEB80B2E6D /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3421EC2BEEC2287B14F154526EBB47 /* Data+Ext.swift */; };
+		2C44FED45E77B1BB2DBA8D0055E1E34F /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5825850268F89CAD594763CB05730 /* Certificate.swift */; };
+		2DC36E58ADBBE456D09579B3C880A7A3 /* WebSocketMessage+Write.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D095C2A0E90E0134594FB9CBFA3CDB6 /* WebSocketMessage+Write.swift */; };
+		2F793D71C0680D8363CB2EFED9373254 /* HTTPErrorDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0304B9D4A0B3939F6E90D53DAA5B9DEE /* HTTPErrorDefaultHandler.swift */; };
+		32C7A00CCCCAC124131CBA8A8E747A5A /* URL+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = C084A5695F244A11718E74DB121D6C0B /* URL+Ext.swift */; };
+		32E3DE10C829D959A44A19414A2FC817 /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B163194A3D208CF5694CA2B4E87A67F /* HTTPResponse.swift */; };
+		35AFDBC2733E64D967AA93CD00196F7C /* Client+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21928D2F37BE8B4659179D2648A9CE /* Client+Config.swift */; };
+		36E0D3F8FEC477D6B7CDD1BAF51E54BC /* HTTPParserC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA28B44F88FEF795C84DB575EA322B11 /* HTTPParserC.framework */; };
+		3B3E6E08DE0B3FC34D4C004A53122075 /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B653C466EE945568934791769A1C8 /* URI.swift */; };
 		411EE6BA92B228BF3497175C14FC7A90 /* GCDAsyncUdpSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = B20E71464B9CAAAB44CFA7D2839DE4A5 /* GCDAsyncUdpSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		452FF11EE19385EA0EFFA326D8C7905F /* HTTPMessage+WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8572B897210C896C8140AF76B6F008C7 /* HTTPMessage+WebSocket.swift */; };
-		4B393D53C4BE03333E409ADFA1B78468 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EA3678648486822DC9E68724961C53 /* HTTPMethod.swift */; };
-		51A32966362C39DBB64C8A5A7FD97B89 /* HTTPParser+Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576F9736A60796B8C09500E703106D80 /* HTTPParser+Raw.swift */; };
-		535B8E1CD76D11784EA4D8548F2BDE68 /* URI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155B653C466EE945568934791769A1C8 /* URI.swift */; };
-		56A4EF1CBEB7ADDE40C4B07872633F81 /* WebSocketMessageDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = BEA406883D216D201053ACB6E08F7E7F /* WebSocketMessageDefaultHandler.swift */; };
-		589C02329BC4FC70541CEA59727C8084 /* TCPListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28F5378AB75ACE20A9DA5A34EC7E7A /* TCPListener.swift */; };
-		592581E30E4598859262F0C9C26C2D1F /* HTTPRequest+Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C8F449888A68C8E59C2B205C2BCB6 /* HTTPRequest+Host.swift */; };
-		5BFCBD805DB2282F600F339A3A3084AE /* CertificateIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381ADEDA7D600BCDB155E88E38A610F /* CertificateIdentity.swift */; };
-		667A5B942CF3E606E101CDE930DE139C /* Server+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C1BEC8F77AA25B5A69676ADF17ECC /* Server+Config.swift */; };
-		6F426F8D33371457DAB0D124F0F27CE3 /* Telegraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3430EDCA0F78652184A643F3DCA5C2D /* Telegraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F7E4060C2F43EF9C137AFAA619FB651 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112654996F6D66FE71D14813F37D8DE6 /* Cocoa.framework */; };
+		4509AC74916C490CA4CFED4F0E38169C /* Server+Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38218F110FB6E5B2E92230C02419A61 /* Server+Routing.swift */; };
+		46432E51F185FE146D10823FCA931EBE /* HTTPRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B087081C38F61C63EDF3EB4B97F8C3 /* HTTPRequestHandler.swift */; };
+		4B0CDF13687064EB920472BAB32DCB11 /* HTTPFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0EF0582776EA778F31915F77612C4E /* HTTPFileHandler.swift */; };
+		5BE1C030884AED52990CEB67F315AA53 /* UInt+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817734E99A23DE4E780F8BFFBD40B721 /* UInt+Ext.swift */; };
+		6745972A8B24C664B4F88EF9C2B48C12 /* Pods-JaredTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 903D1DC257DBE5C93FB00BAF841FAE7E /* Pods-JaredTests-dummy.m */; };
+		67853655C328DA740F7B40E820EFE67F /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732297A2CB379E0C6ED3917D544B4B4A /* FileManager+Ext.swift */; };
+		6800C83C080AA149B662CF9E2AE6573B /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F035372B4C174794E7B4F456309140 /* SHA1.swift */; };
+		6BF806AEDE6D4F2CBED4813E76761744 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112654996F6D66FE71D14813F37D8DE6 /* Cocoa.framework */; };
+		6C5EF4DE61901D1C699324F143F37A51 /* SynchronizedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB055FD552B828A0ABFB64A9461015B3 /* SynchronizedSet.swift */; };
 		6FFB23DD5E8DD756D3A4AB53EEE4BA8E /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A47CBF88FC6C6D282BBA5BEAA53E9A8 /* GCDAsyncUdpSocket.m */; };
 		710EFDBE66FA7EABEDA76EC1BE4FDAB9 /* http_parser.h in Headers */ = {isa = PBXBuildFile; fileRef = C827A7FC2537B5DED0E81BF2E27D54EE /* http_parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7588CC801C05E862FE307A4415CBF62B /* WebSocketClientError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D65091330424EFC326603C3690D794F /* WebSocketClientError.swift */; };
-		75C1CDAF39B70AC0393661272C2DD8E6 /* WebSocketErrorDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637EB805F9C12BA41F37DE6E95803B0E /* WebSocketErrorDefaultHandler.swift */; };
-		77AD7C4A97D84009DD6BE779A177DE43 /* HTTPHeader+WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51C30413EEDF7264036769F3C5237E /* HTTPHeader+WebSocket.swift */; };
-		7D6A3766B4A1D9210878819B8DEEB711 /* WebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA06B70F2D430B532B0308BD486CBE /* WebSocketMessage.swift */; };
-		7DEEF4056674E32F43972022BE107720 /* HTTPVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76C265C4E08139C7E2EB52B4B88E6A /* HTTPVersion.swift */; };
-		8293E91CB5FC29E7A513427A72CD78AE /* HTTPResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B163194A3D208CF5694CA2B4E87A67F /* HTTPResponse.swift */; };
-		8535928873646BFD6B10BED6350A9567 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DED48848F75741F0F9F00D8F449BF /* HTTPRequest.swift */; };
+		715132D932CB6276333935065C11EB74 /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB1F7724BBEA4E1ABBCB49FDE23031 /* String+Ext.swift */; };
+		725FC19AE8116F30FAD6B94A85E749E7 /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF461E206417B0F5BBD37FEE1A27720 /* Server.swift */; };
+		728F8E0D2BC267096BDAF919867C247D /* HTTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB2682C5A759FE4758ECAFDC45B527 /* HTTPConnection.swift */; };
+		729CF6BC3387D2F0A2971F21E0C762B6 /* HTTPErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B19BBF43EABCD28882F2CFC296A692C /* HTTPErrorHandler.swift */; };
+		742B449C629A697EF7CD475797E92760 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF4F9D1F054BB1EC01C917956050BD1 /* KeychainError.swift */; };
+		743F82373FE75E6D678BBCCEBD4A0818 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112654996F6D66FE71D14813F37D8DE6 /* Cocoa.framework */; };
+		7AE0E807049B6FC5D8F82086C0A66A07 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47A5760B293DAC1CB88C8C46491038CD /* Endpoint.swift */; };
+		822206100F35F81CDCAB5170BAEE59B1 /* HTTPRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE14376064E4EB9CE3CCFE7C93662A5 /* HTTPRoute.swift */; };
+		85596501B77538C4CB5182A1E3599081 /* WebSocketConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD323E28EF2F07845A1B179147507715 /* WebSocketConnection.swift */; };
+		85E721DD1B121FF2E68E2524A4FE6C38 /* CertificateIdentity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9381ADEDA7D600BCDB155E88E38A610F /* CertificateIdentity.swift */; };
+		87461AB3BF713737069793E6B0413195 /* HTTPRouteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D58F1579ECFAF2F9C97097CFA2BF9FD /* HTTPRouteHandler.swift */; };
+		884A9CFD836336CFCB57FC08ABD80050 /* HTTPParser+Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 576F9736A60796B8C09500E703106D80 /* HTTPParser+Raw.swift */; };
+		8C911920B49C98C677AED157EE244F99 /* DispatchTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40DDDE1727353BCB976A575890878815 /* DispatchTimer.swift */; };
+		8E6D1CCD7595529EA03B939639848FBE /* HTTPStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76D0C55D2F2166D4FDCD1CF5A9E9AF61 /* HTTPStatus.swift */; };
 		8E833467B449C5AA8EB04A12B5674FC1 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112654996F6D66FE71D14813F37D8DE6 /* Cocoa.framework */; };
-		90F98E1B51F3E9A47A0E78949B49602B /* HTTPRequestHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B087081C38F61C63EDF3EB4B97F8C3 /* HTTPRequestHandler.swift */; };
-		912F95BC513DA41E282FC6D34240C601 /* CocoaAsyncSocket.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9D7C4961F33B3C735D3F4C3429D042E /* CocoaAsyncSocket.framework */; };
-		94A6A7EBA2FEBAE2B288976EB00AE40C /* HTTPRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE14376064E4EB9CE3CCFE7C93662A5 /* HTTPRoute.swift */; };
-		9BDF2AC2EC8D0536DDA717AF0026A8BA /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFE9B0B30362D92338330E8ADFD74CC2 /* HTTPError.swift */; };
-		9EE0B9FDAB1F7BA38D8D1745754EC6B1 /* HTTPErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B19BBF43EABCD28882F2CFC296A692C /* HTTPErrorHandler.swift */; };
-		9F6ECE6C057C11E6FD07C205C460CF93 /* KeychainError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BF4F9D1F054BB1EC01C917956050BD1 /* KeychainError.swift */; };
-		A049728F71458671B2C8CFBC9BAA17D6 /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC06824EC677188BB15DB308EE736C /* KeychainManager.swift */; };
+		91BF045F1B7D98A04841CECE53550200 /* NSRegularExpression+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = E340C55F828449E76D0CF9375BF2741F /* NSRegularExpression+Ext.swift */; };
+		98C4813EE4E4C8CB3B6B55A3D4DAB818 /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FF407493B2AB6F807CA4C47587748 /* HTTPHeader.swift */; };
+		99AF4570EC7B9FDF747EA7B2C6FCA529 /* DataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3027BAC120F6C5B54E1B4961FDE6 /* DataStream.swift */; };
+		99B1C612CB88EBA8608ED1EB052C855E /* Pods-Jared-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2865499A96567B4EAF0A73A75445F5F1 /* Pods-Jared-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9CFA76222F4AB766C4D02B4FF7071D4F /* HTTPParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B24178093397C162272F4CCAED7147 /* HTTPParser.swift */; };
+		9E934C227A99CE07EA369FD4C5F180F5 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D040840A8BE5ED88A75457AF49B95FE /* WebSocket.swift */; };
+		9EDD5C216BB893DC14EAB3A8873DEC09 /* RFC1123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58843C216547E54CBE6AA053224E0EAD /* RFC1123.swift */; };
 		A22E33C31A9CE64A242931F11AE9C17A /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112654996F6D66FE71D14813F37D8DE6 /* Cocoa.framework */; };
-		A2883066469164A9005A9E41B4AF68B8 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 112654996F6D66FE71D14813F37D8DE6 /* Cocoa.framework */; };
-		A45B7BE76F7588979F5C7465991C7F62 /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0F61EB0F51B9422F111AC0AC2B966 /* TCPConnection.swift */; };
-		A87BC09B68F19F6CE718F7AD5CCE2292 /* WebSocketErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E335A1535E4EFE4AF64F6FB45E56AC /* WebSocketErrorHandler.swift */; };
-		ABB3B7B19A40A01236CCA92B94F6EC76 /* WebSocketError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B978B3339F1107CB1F37E83D121995 /* WebSocketError.swift */; };
-		ABCB08F546988BBF05E9124A3B875C22 /* TLSPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4611D8313CF90E9A70F1E858FF48F3C8 /* TLSPolicy.swift */; };
+		A3537D90F1C168F27746F83AEF007EAC /* WebSocketErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58E335A1535E4EFE4AF64F6FB45E56AC /* WebSocketErrorHandler.swift */; };
+		A3ECBF0B4276E34F1B8A7BDDDEE1FDD3 /* TCPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F14277988735FB05336D46248C55F /* TCPSocket.swift */; };
+		A4AECD18F3F8A7FC1EC89C913E7BC465 /* HTTPMessage+WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8572B897210C896C8140AF76B6F008C7 /* HTTPMessage+WebSocket.swift */; };
+		A4E040FF308B59FA1C1FA75165B646D8 /* TCPListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B28F5378AB75ACE20A9DA5A34EC7E7A /* TCPListener.swift */; };
+		AA86CB721F287370C5869BD79D162947 /* Pods-Jared-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 775D717880C10F2181A73B1490748A4D /* Pods-Jared-dummy.m */; };
 		ABE2CF7FE359B07D646CBBE2C5A6B147 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 905D74968E94B9A2F5B83D0AD619D4AE /* Security.framework */; };
-		B034B1F2A976D21D11E3174EB20F02E8 /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D040840A8BE5ED88A75457AF49B95FE /* WebSocket.swift */; };
-		BCAB683CCDED424F5A3794A8C1593699 /* HTTPFileHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB0EF0582776EA778F31915F77612C4E /* HTTPFileHandler.swift */; };
-		BE1C9A3507291DC9CDBFAAF3988D0F9C /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787656112487614B33DC57723C8F6DD2 /* Deprecations.swift */; };
-		C2DB8C65B4DF1290BC3FDAEFC665CE36 /* TLSConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8361800ACC7FB5618386CAA9CE6EA700 /* TLSConfig.swift */; };
-		C3ADDBCFCACA0E4C558D17167C7810A5 /* ServerDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D366F841F8273616AAD78F94E7FF25E9 /* ServerDelegates.swift */; };
-		C3CAEC52B1219D2D2092761114F78DFE /* DataStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 934D3027BAC120F6C5B54E1B4961FDE6 /* DataStream.swift */; };
-		C7DB5F557EE15CDCA221AB2CD48AAEAF /* Certificate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49F5825850268F89CAD594763CB05730 /* Certificate.swift */; };
-		C9AB47CE18DFB1409F41CC3FBAE813CE /* Streams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC7DF4C0208BB8B390C81A38B1AAE1 /* Streams.swift */; };
-		CAB8CD9B53A87E5ED10B0160583AC4CE /* FileManager+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 732297A2CB379E0C6ED3917D544B4B4A /* FileManager+Ext.swift */; };
-		CF93E241C3048A0F97AA660C095DC476 /* Server+Routing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38218F110FB6E5B2E92230C02419A61 /* Server+Routing.swift */; };
-		D2E4C6615E953EEB69F787A9090EB1B4 /* HTTPRouteHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D58F1579ECFAF2F9C97097CFA2BF9FD /* HTTPRouteHandler.swift */; };
-		D4B38AB933CB0B03650E7963B9DE1E2B /* HTTPHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B1FF407493B2AB6F807CA4C47587748 /* HTTPHeader.swift */; };
-		D8D7EF2F7D37C5F24CA5CFA0A4D46C9F /* Server.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF461E206417B0F5BBD37FEE1A27720 /* Server.swift */; };
-		DB388893CF586BF45ED294204687AD3A /* HTTPParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51B24178093397C162272F4CCAED7147 /* HTTPParser.swift */; };
-		DB75F1F0C18FF68922D715FAE43C0FF1 /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9B8EC10EA664FF798D0FFCD30CC9F /* Array+Ext.swift */; };
-		DD77A3082B864CB5F4BC2B1DA6D0DE5B /* Client+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A21928D2F37BE8B4659179D2648A9CE /* Client+Config.swift */; };
+		AC450322F5AC2E554DF566423A94B386 /* Pods-JaredTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8185150B4D4D47B9B075252991FA01AB /* Pods-JaredTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE75E7579D7A2BEFD3B2E343E75907A5 /* HTTPRequest+Host.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2C8F449888A68C8E59C2B205C2BCB6 /* HTTPRequest+Host.swift */; };
+		AE9D629091B4FCB016044F9B9268551E /* ServerDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = D366F841F8273616AAD78F94E7FF25E9 /* ServerDelegates.swift */; };
+		B01635C60DD5E23B7756C14632EC79FA /* Telegraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED312FF93D4B0631741CF2F12A9704D6 /* Telegraph-dummy.m */; };
+		B8077F25A5D8B8ABB1BFFDB42CB0A991 /* WebSocketConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D148B2480CE3E69EC05ECBFB651E093 /* WebSocketConfig.swift */; };
+		C033714DD08C7F4E38285DBE821EFE0C /* Telegraph-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E3430EDCA0F78652184A643F3DCA5C2D /* Telegraph-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C97F26E513EC811C1DE4F7437CC3DD2C /* HTTPWebSocketHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9823805D515F81DAD3500E42D9D1396C /* HTTPWebSocketHandler.swift */; };
+		CA61AA3B107D4E01591F7F9C26DC7B0C /* KeychainManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86AC06824EC677188BB15DB308EE736C /* KeychainManager.swift */; };
+		D5F7DEE8B781A3965DEA12C333095D0A /* HTTPVersion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E76C265C4E08139C7E2EB52B4B88E6A /* HTTPVersion.swift */; };
+		D845FAC34FF08B6059323CD1377DC6BC /* TLSPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4611D8313CF90E9A70F1E858FF48F3C8 /* TLSPolicy.swift */; };
+		DA4AAF075681071E7D818FB14FA63B2C /* Array+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07A9B8EC10EA664FF798D0FFCD30CC9F /* Array+Ext.swift */; };
+		DD30FB2A62DA3116479EBB5E501CC068 /* WebSocketErrorDefaultHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 637EB805F9C12BA41F37DE6E95803B0E /* WebSocketErrorDefaultHandler.swift */; };
 		DF77DA76BD5962EE7DD383126BBBBAC8 /* GCDAsyncSocket.h in Headers */ = {isa = PBXBuildFile; fileRef = C99A94B6F4CB1549409B2E3FD53F8240 /* GCDAsyncSocket.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E157C18B39CF49DE8295F9645045BEC4 /* HTTPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFB2682C5A759FE4758ECAFDC45B527 /* HTTPConnection.swift */; };
+		E0EB624C330E441DC270274845AC5FE8 /* TCPConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E0F61EB0F51B9422F111AC0AC2B966 /* TCPConnection.swift */; };
 		E357FF0B24F093ACF7EB07C8D61B1377 /* http_parser.c in Sources */ = {isa = PBXBuildFile; fileRef = E3D4CE048E637C906E7B547A94EBC7F1 /* http_parser.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E4033AAF0E740A7EFEC08D0182388D2A /* String+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84BB1F7724BBEA4E1ABBCB49FDE23031 /* String+Ext.swift */; };
-		E457C6EA71CAACFCB571862148E3C6DA /* WebSocketConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D148B2480CE3E69EC05ECBFB651E093 /* WebSocketConfig.swift */; };
-		E60FC4297DCA2649F7A88F3CE5FF4747 /* SHA1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00F035372B4C174794E7B4F456309140 /* SHA1.swift */; };
-		E6372C4CDA62C884A50CB6456F116B8E /* Pods-JaredTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8185150B4D4D47B9B075252991FA01AB /* Pods-JaredTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E9AA8569A81503AE97A803BA493E83FD /* Telegraph-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED312FF93D4B0631741CF2F12A9704D6 /* Telegraph-dummy.m */; };
+		E5A8763810684EB8C2056A7D65C6CF3B /* Server+Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA7C1BEC8F77AA25B5A69676ADF17ECC /* Server+Config.swift */; };
+		E63043F2114332832BB553CF0BD7B8C4 /* Data+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A3421EC2BEEC2287B14F154526EBB47 /* Data+Ext.swift */; };
+		E6EE5E6C435EA0571DDA9DC6CCB1A2A1 /* Deprecations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 787656112487614B33DC57723C8F6DD2 /* Deprecations.swift */; };
+		E78A7C30AB601349521952BA86560A6D /* HTTPConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3055E4E80CA69C003613C3580164BCA6 /* HTTPConfig.swift */; };
+		EBA2B6A22776D8010FE93A9C72348C9C /* WebSocketMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FEA06B70F2D430B532B0308BD486CBE /* WebSocketMessage.swift */; };
+		EC27CF82F5570AD9FCB4527F617EC287 /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B972BFC0BAE36E33629DAB2BBE38C5 /* WebSocketClient.swift */; };
+		EC40AF970C0BE24824B96A21875EE236 /* HTTPRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F5DED48848F75741F0F9F00D8F449BF /* HTTPRequest.swift */; };
 		EC8F9528DA50C1BC29606CBF62DF6F3D /* HTTPParserC-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E31834C1FE9EC6E18FB94EDCAB331227 /* HTTPParserC-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EDF00A55D280E9785F5A6B3F5C05E5C6 /* WebSocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A0C632B007A9045B8D1683C8AD3CC2 /* WebSocketParser.swift */; };
-		F43A85FE61CC10F8044C6E73326DA6BF /* SynchronizedSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB055FD552B828A0ABFB64A9461015B3 /* SynchronizedSet.swift */; };
-		F5F6C3B7785EE4667B2DDB6A1842BAF1 /* RFC1123.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58843C216547E54CBE6AA053224E0EAD /* RFC1123.swift */; };
-		F7AC0D6D2221F72E21A0D4E1AED612D3 /* TCPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = F36F14277988735FB05336D46248C55F /* TCPSocket.swift */; };
-		F842CDFA0E22A3CD005D6B79990ADF41 /* WebSocketClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7B972BFC0BAE36E33629DAB2BBE38C5 /* WebSocketClient.swift */; };
+		F02961BC30292C2F12A4BF56C7170911 /* WebSocketMessageHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1740E5BD6BEF733DE50F322D1650A20 /* WebSocketMessageHandler.swift */; };
+		F11474BEB1A9EA5B761630C2C0D1F571 /* HTTPHeader+WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B51C30413EEDF7264036769F3C5237E /* HTTPHeader+WebSocket.swift */; };
+		F20B6FDBE45F1A5754F14529301BF5EB /* HTTPHeader+Common.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D625C1B853A921CF266397790F3E119 /* HTTPHeader+Common.swift */; };
+		F2B36E2C406AC124BE305AFD8EE4F807 /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76EA3678648486822DC9E68724961C53 /* HTTPMethod.swift */; };
 		FBB70AF3F803450935EE98C837D98688 /* CocoaAsyncSocket-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93F2F9B734A76E1F8FDDDA5CC4296CFB /* CocoaAsyncSocket-dummy.m */; };
+		FE1124A35F8E8F209460574A73675342 /* Streams.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82EC7DF4C0208BB8B390C81A38B1AAE1 /* Streams.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		26123DF5BE4C3DC2E9AFA74B17F20012 /* PBXContainerItemProxy */ = {
+		034C02AE0AD2B2B08A621CA8F84D8519 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		2BF38BDBDF207D10F00A44BFE2568C0D /* PBXContainerItemProxy */ = {
+		1706797452A3436EAA9C15A1C7620CD0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B201235B25164DEA38800E31385E78;
+			remoteInfo = HTTPParserC;
+		};
+		5BE738FC0D99C26171DDC5BBAADA5F17 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B4B201235B25164DEA38800E31385E78;
+			remoteInfo = HTTPParserC;
+		};
+		A70E90168AFE8F545FD005DBC0C44ADF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
 			remoteInfo = CocoaAsyncSocket;
 		};
-		35D75A8E0B17F13878C3D48048C7AA72 /* PBXContainerItemProxy */ = {
+		B002DD358FED4EAFB7A4C3E1E55DB6F7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B4B201235B25164DEA38800E31385E78;
 			remoteInfo = HTTPParserC;
 		};
-		3E6E87B9637ED4DB93AA9DFA8B439E8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B4B201235B25164DEA38800E31385E78;
-			remoteInfo = HTTPParserC;
-		};
-		6F844A0A0E9C700719F703708FA5F48D /* PBXContainerItemProxy */ = {
+		C733237CA5031166C39721A9377BF109 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 620D34D36CFC8F661EA7AC3834005886;
 			remoteInfo = Telegraph;
 		};
-		89E8D6D0BE369613678D10C088EDE264 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
-			remoteInfo = CocoaAsyncSocket;
-		};
-		B8E21AD1C0BA63B90797EA60B35EC8BA /* PBXContainerItemProxy */ = {
+		D4149F61942B24CE3C2333868E9795FE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 620D34D36CFC8F661EA7AC3834005886;
 			remoteInfo = Telegraph;
 		};
-		E41CAB731DBEB1644FB1DEBB9151DA97 /* PBXContainerItemProxy */ = {
+		DF987C6D55A54F409BCDEE477B169615 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = B4B201235B25164DEA38800E31385E78;
-			remoteInfo = HTTPParserC;
+			remoteGlobalIDString = 6083682834ABE0AE7BD1CBF06CADD036;
+			remoteInfo = CocoaAsyncSocket;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -293,13 +293,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8F5DDC601816983B8F9DB646B2CD4401 /* Frameworks */ = {
+		8F2993D313283D1CDE501722BB1008AD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A2883066469164A9005A9E41B4AF68B8 /* Cocoa.framework in Frameworks */,
-				912F95BC513DA41E282FC6D34240C601 /* CocoaAsyncSocket.framework in Frameworks */,
-				35D18FBAC5710ACD3DF74C813C523D33 /* HTTPParserC.framework in Frameworks */,
+				1983B20FA97E09721E9E764F4DEFD8A7 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -313,19 +311,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F99091E92BE29E00D620D200359409A1 /* Frameworks */ = {
+		C00E49623A0E768C59B54174024F7B84 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3CDF11FD188DF0EC8D249FE7DB435C15 /* Cocoa.framework in Frameworks */,
+				6BF806AEDE6D4F2CBED4813E76761744 /* Cocoa.framework in Frameworks */,
+				0042A2A8D61396E2AAE972D8CF382FE1 /* CocoaAsyncSocket.framework in Frameworks */,
+				36E0D3F8FEC477D6B7CDD1BAF51E54BC /* HTTPParserC.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FDD9D445A2CB63E9E6B160485883EE51 /* Frameworks */ = {
+		DDA715B94D6A06D1E046282D09CB456A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F7E4060C2F43EF9C137AFAA619FB651 /* Cocoa.framework in Frameworks */,
+				743F82373FE75E6D678BBCCEBD4A0818 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -575,11 +575,11 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		00E194864639F2362D54E64E3FBD8E65 /* Headers */ = {
+		09BB38E34404A3423ABCC26105194094 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E6372C4CDA62C884A50CB6456F116B8E /* Pods-JaredTests-umbrella.h in Headers */,
+				C033714DD08C7F4E38285DBE821EFE0C /* Telegraph-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -592,19 +592,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5A925BE1BC3E591FAFAE852610F2CECE /* Headers */ = {
+		833F71D813C699BB9C4F3FA6707F0AA4 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6F426F8D33371457DAB0D124F0F27CE3 /* Telegraph-umbrella.h in Headers */,
+				AC450322F5AC2E554DF566423A94B386 /* Pods-JaredTests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F46ADB12D3CF93DDE4A6D40A995E0E53 /* Headers */ = {
+		DFF61A327A62B5C9D320D48183942D90 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D4957A9600A28BA04D566939C34AB2A /* Pods-Jared-umbrella.h in Headers */,
+				99B1C612CB88EBA8608ED1EB052C855E /* Pods-Jared-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -623,19 +623,19 @@
 /* Begin PBXNativeTarget section */
 		27C744BDAA58DECD13CEB3511DF97183 /* Pods-JaredTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = ECBD45E2941752B5081324C137694EA3 /* Build configuration list for PBXNativeTarget "Pods-JaredTests" */;
+			buildConfigurationList = 9267CAEA5AC105E4C802368C2DAE3EAE /* Build configuration list for PBXNativeTarget "Pods-JaredTests" */;
 			buildPhases = (
-				00E194864639F2362D54E64E3FBD8E65 /* Headers */,
-				6FBA1C70F267850D87C6E4D95EB0649C /* Sources */,
-				F99091E92BE29E00D620D200359409A1 /* Frameworks */,
-				5DE38C1A73FAF3CAE3BBD586239FC0F7 /* Resources */,
+				833F71D813C699BB9C4F3FA6707F0AA4 /* Headers */,
+				E6DD5E137D888B7B8078B0C3A477E441 /* Sources */,
+				8F2993D313283D1CDE501722BB1008AD /* Frameworks */,
+				E53CED2224C4155632E1E1B2FB001942 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FAF8B18046EEBBD0E73595F7F03D2240 /* PBXTargetDependency */,
-				6EBD84F3B309A59F78AEA35D5B67A566 /* PBXTargetDependency */,
-				3FB202CB4F3761946F537BA93B8088E0 /* PBXTargetDependency */,
+				382CE41D4B3E349601C2AA758112FAD9 /* PBXTargetDependency */,
+				A06A5404E458EBB8687A726C20B150E1 /* PBXTargetDependency */,
+				DEE1E07F06DB93A947F3BDC91A32A438 /* PBXTargetDependency */,
 			);
 			name = "Pods-JaredTests";
 			productName = "Pods-JaredTests";
@@ -662,18 +662,18 @@
 		};
 		620D34D36CFC8F661EA7AC3834005886 /* Telegraph */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A8AD3D818A41CA3F59181950639F6458 /* Build configuration list for PBXNativeTarget "Telegraph" */;
+			buildConfigurationList = 544A5F81AE8D1AEB1361C573EB6DB845 /* Build configuration list for PBXNativeTarget "Telegraph" */;
 			buildPhases = (
-				5A925BE1BC3E591FAFAE852610F2CECE /* Headers */,
-				20032EF4526389965B5D5E72A89DB8A3 /* Sources */,
-				8F5DDC601816983B8F9DB646B2CD4401 /* Frameworks */,
-				6E2621772C3ED64CB51718E807B0CE57 /* Resources */,
+				09BB38E34404A3423ABCC26105194094 /* Headers */,
+				0E3B19B64D8220FBF753C9DCD255415A /* Sources */,
+				C00E49623A0E768C59B54174024F7B84 /* Frameworks */,
+				6FA6690C858D7EDBBB04CACD7A5B8C08 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				77D3E30DF9E3070C698A473E4DC367CC /* PBXTargetDependency */,
-				12739485813666EBE61E1700B0174548 /* PBXTargetDependency */,
+				0AE0B8CB4157062AF8F3496456E3E096 /* PBXTargetDependency */,
+				DCD64F80D96751B3461B5AE8658BCE33 /* PBXTargetDependency */,
 			);
 			name = Telegraph;
 			productName = Telegraph;
@@ -682,19 +682,19 @@
 		};
 		ADE857290C8CC7D987C6573A02548DA5 /* Pods-Jared */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C45FB1C9EF9ED8F82F1CBCE6860EA7A6 /* Build configuration list for PBXNativeTarget "Pods-Jared" */;
+			buildConfigurationList = 10BED8FEFEA3E91ADC018D9D39501369 /* Build configuration list for PBXNativeTarget "Pods-Jared" */;
 			buildPhases = (
-				F46ADB12D3CF93DDE4A6D40A995E0E53 /* Headers */,
-				A1A1DBAC34252E10D19371BDE0E14675 /* Sources */,
-				FDD9D445A2CB63E9E6B160485883EE51 /* Frameworks */,
-				50542B9AE6DB893ABB5DF5A9BF80EB88 /* Resources */,
+				DFF61A327A62B5C9D320D48183942D90 /* Headers */,
+				748F8FCAE08E6AD871BA9158622697D7 /* Sources */,
+				DDA715B94D6A06D1E046282D09CB456A /* Frameworks */,
+				028E7147F2C25E791CB8E08915DBE213 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C1D82045A229408C4CC7E1E50D2941C1 /* PBXTargetDependency */,
-				0F06E57C199292FBAFF01A4FA62ACC2C /* PBXTargetDependency */,
-				E83B82A820DEAFD877605D5676129969 /* PBXTargetDependency */,
+				58D38277375D5A122FDA968B2E8CCA9F /* PBXTargetDependency */,
+				9D19125228F31953971F13B6AEE22CBC /* PBXTargetDependency */,
+				A76520905C4629D8A016AA013E77043D /* PBXTargetDependency */,
 			);
 			name = "Pods-Jared";
 			productName = "Pods-Jared";
@@ -751,21 +751,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		50542B9AE6DB893ABB5DF5A9BF80EB88 /* Resources */ = {
+		028E7147F2C25E791CB8E08915DBE213 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5DE38C1A73FAF3CAE3BBD586239FC0F7 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6E2621772C3ED64CB51718E807B0CE57 /* Resources */ = {
+		6FA6690C858D7EDBBB04CACD7A5B8C08 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -786,80 +779,87 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E53CED2224C4155632E1E1B2FB001942 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		20032EF4526389965B5D5E72A89DB8A3 /* Sources */ = {
+		0E3B19B64D8220FBF753C9DCD255415A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB75F1F0C18FF68922D715FAE43C0FF1 /* Array+Ext.swift in Sources */,
-				C7DB5F557EE15CDCA221AB2CD48AAEAF /* Certificate.swift in Sources */,
-				5BFCBD805DB2282F600F339A3A3084AE /* CertificateIdentity.swift in Sources */,
-				DD77A3082B864CB5F4BC2B1DA6D0DE5B /* Client+Config.swift in Sources */,
-				4086CFF4EDB78EEA465DAECEB80B2E6D /* Data+Ext.swift in Sources */,
-				C3CAEC52B1219D2D2092761114F78DFE /* DataStream.swift in Sources */,
-				BE1C9A3507291DC9CDBFAAF3988D0F9C /* Deprecations.swift in Sources */,
-				2D56C2043D107454B82BA826455DFCB4 /* DispatchTimer.swift in Sources */,
-				36F55270B0F12C906F53FAD3EDB30AC9 /* Endpoint.swift in Sources */,
-				CAB8CD9B53A87E5ED10B0160583AC4CE /* FileManager+Ext.swift in Sources */,
-				34199C85F5C3CDA9DA16BEEB8DE71815 /* HTTPConfig.swift in Sources */,
-				E157C18B39CF49DE8295F9645045BEC4 /* HTTPConnection.swift in Sources */,
-				9BDF2AC2EC8D0536DDA717AF0026A8BA /* HTTPError.swift in Sources */,
-				197367014D9277BB5A14837284550878 /* HTTPErrorDefaultHandler.swift in Sources */,
-				9EE0B9FDAB1F7BA38D8D1745754EC6B1 /* HTTPErrorHandler.swift in Sources */,
-				BCAB683CCDED424F5A3794A8C1593699 /* HTTPFileHandler.swift in Sources */,
-				11B3AC7FDE6F9CD5E462485A15FB422C /* HTTPHeader+Common.swift in Sources */,
-				77AD7C4A97D84009DD6BE779A177DE43 /* HTTPHeader+WebSocket.swift in Sources */,
-				D4B38AB933CB0B03650E7963B9DE1E2B /* HTTPHeader.swift in Sources */,
-				452FF11EE19385EA0EFFA326D8C7905F /* HTTPMessage+WebSocket.swift in Sources */,
-				014755E65418CD5AF52DADB2A996A282 /* HTTPMessage.swift in Sources */,
-				4B393D53C4BE03333E409ADFA1B78468 /* HTTPMethod.swift in Sources */,
-				51A32966362C39DBB64C8A5A7FD97B89 /* HTTPParser+Raw.swift in Sources */,
-				DB388893CF586BF45ED294204687AD3A /* HTTPParser.swift in Sources */,
-				592581E30E4598859262F0C9C26C2D1F /* HTTPRequest+Host.swift in Sources */,
-				8535928873646BFD6B10BED6350A9567 /* HTTPRequest.swift in Sources */,
-				90F98E1B51F3E9A47A0E78949B49602B /* HTTPRequestHandler.swift in Sources */,
-				8293E91CB5FC29E7A513427A72CD78AE /* HTTPResponse.swift in Sources */,
-				94A6A7EBA2FEBAE2B288976EB00AE40C /* HTTPRoute.swift in Sources */,
-				D2E4C6615E953EEB69F787A9090EB1B4 /* HTTPRouteHandler.swift in Sources */,
-				084EF887F460701C998C709FC788E30D /* HTTPStatus.swift in Sources */,
-				7DEEF4056674E32F43972022BE107720 /* HTTPVersion.swift in Sources */,
-				3C77965415676ACA1CFC0A1CBDDB8B6B /* HTTPWebSocketHandler.swift in Sources */,
-				9F6ECE6C057C11E6FD07C205C460CF93 /* KeychainError.swift in Sources */,
-				A049728F71458671B2C8CFBC9BAA17D6 /* KeychainManager.swift in Sources */,
-				3FA4DC4C3752BD5BFB55520A0FEA9E24 /* NSRegularExpression+Ext.swift in Sources */,
-				F5F6C3B7785EE4667B2DDB6A1842BAF1 /* RFC1123.swift in Sources */,
-				667A5B942CF3E606E101CDE930DE139C /* Server+Config.swift in Sources */,
-				CF93E241C3048A0F97AA660C095DC476 /* Server+Routing.swift in Sources */,
-				D8D7EF2F7D37C5F24CA5CFA0A4D46C9F /* Server.swift in Sources */,
-				C3ADDBCFCACA0E4C558D17167C7810A5 /* ServerDelegates.swift in Sources */,
-				E60FC4297DCA2649F7A88F3CE5FF4747 /* SHA1.swift in Sources */,
-				C9AB47CE18DFB1409F41CC3FBAE813CE /* Streams.swift in Sources */,
-				E4033AAF0E740A7EFEC08D0182388D2A /* String+Ext.swift in Sources */,
-				F43A85FE61CC10F8044C6E73326DA6BF /* SynchronizedSet.swift in Sources */,
-				A45B7BE76F7588979F5C7465991C7F62 /* TCPConnection.swift in Sources */,
-				589C02329BC4FC70541CEA59727C8084 /* TCPListener.swift in Sources */,
-				F7AC0D6D2221F72E21A0D4E1AED612D3 /* TCPSocket.swift in Sources */,
-				E9AA8569A81503AE97A803BA493E83FD /* Telegraph-dummy.m in Sources */,
-				C2DB8C65B4DF1290BC3FDAEFC665CE36 /* TLSConfig.swift in Sources */,
-				ABCB08F546988BBF05E9124A3B875C22 /* TLSPolicy.swift in Sources */,
-				218EE3716F80587F01B6832F1EACE2F3 /* UInt+Ext.swift in Sources */,
-				535B8E1CD76D11784EA4D8548F2BDE68 /* URI.swift in Sources */,
-				3B51D730EF14B0AA10C44569DF73B9BF /* URL+Ext.swift in Sources */,
-				B034B1F2A976D21D11E3174EB20F02E8 /* WebSocket.swift in Sources */,
-				F842CDFA0E22A3CD005D6B79990ADF41 /* WebSocketClient.swift in Sources */,
-				7588CC801C05E862FE307A4415CBF62B /* WebSocketClientError.swift in Sources */,
-				E457C6EA71CAACFCB571862148E3C6DA /* WebSocketConfig.swift in Sources */,
-				1619FB0C0F1D696B6BAB929152CD3883 /* WebSocketConnection.swift in Sources */,
-				ABB3B7B19A40A01236CCA92B94F6EC76 /* WebSocketError.swift in Sources */,
-				75C1CDAF39B70AC0393661272C2DD8E6 /* WebSocketErrorDefaultHandler.swift in Sources */,
-				A87BC09B68F19F6CE718F7AD5CCE2292 /* WebSocketErrorHandler.swift in Sources */,
-				2CE2EDBAD5B99540053E0C551F86F358 /* WebSocketMessage+Write.swift in Sources */,
-				7D6A3766B4A1D9210878819B8DEEB711 /* WebSocketMessage.swift in Sources */,
-				56A4EF1CBEB7ADDE40C4B07872633F81 /* WebSocketMessageDefaultHandler.swift in Sources */,
-				0A6B30693029C3167ABF81C176C862B5 /* WebSocketMessageHandler.swift in Sources */,
-				EDF00A55D280E9785F5A6B3F5C05E5C6 /* WebSocketParser.swift in Sources */,
+				DA4AAF075681071E7D818FB14FA63B2C /* Array+Ext.swift in Sources */,
+				2C44FED45E77B1BB2DBA8D0055E1E34F /* Certificate.swift in Sources */,
+				85E721DD1B121FF2E68E2524A4FE6C38 /* CertificateIdentity.swift in Sources */,
+				35AFDBC2733E64D967AA93CD00196F7C /* Client+Config.swift in Sources */,
+				E63043F2114332832BB553CF0BD7B8C4 /* Data+Ext.swift in Sources */,
+				99AF4570EC7B9FDF747EA7B2C6FCA529 /* DataStream.swift in Sources */,
+				E6EE5E6C435EA0571DDA9DC6CCB1A2A1 /* Deprecations.swift in Sources */,
+				8C911920B49C98C677AED157EE244F99 /* DispatchTimer.swift in Sources */,
+				7AE0E807049B6FC5D8F82086C0A66A07 /* Endpoint.swift in Sources */,
+				67853655C328DA740F7B40E820EFE67F /* FileManager+Ext.swift in Sources */,
+				E78A7C30AB601349521952BA86560A6D /* HTTPConfig.swift in Sources */,
+				728F8E0D2BC267096BDAF919867C247D /* HTTPConnection.swift in Sources */,
+				237D264D0D5D2DA87B32DE15ADD9A793 /* HTTPError.swift in Sources */,
+				2F793D71C0680D8363CB2EFED9373254 /* HTTPErrorDefaultHandler.swift in Sources */,
+				729CF6BC3387D2F0A2971F21E0C762B6 /* HTTPErrorHandler.swift in Sources */,
+				4B0CDF13687064EB920472BAB32DCB11 /* HTTPFileHandler.swift in Sources */,
+				F20B6FDBE45F1A5754F14529301BF5EB /* HTTPHeader+Common.swift in Sources */,
+				F11474BEB1A9EA5B761630C2C0D1F571 /* HTTPHeader+WebSocket.swift in Sources */,
+				98C4813EE4E4C8CB3B6B55A3D4DAB818 /* HTTPHeader.swift in Sources */,
+				A4AECD18F3F8A7FC1EC89C913E7BC465 /* HTTPMessage+WebSocket.swift in Sources */,
+				1A7D9CF89DD1AB985393BEC6BD75C60A /* HTTPMessage.swift in Sources */,
+				F2B36E2C406AC124BE305AFD8EE4F807 /* HTTPMethod.swift in Sources */,
+				884A9CFD836336CFCB57FC08ABD80050 /* HTTPParser+Raw.swift in Sources */,
+				9CFA76222F4AB766C4D02B4FF7071D4F /* HTTPParser.swift in Sources */,
+				AE75E7579D7A2BEFD3B2E343E75907A5 /* HTTPRequest+Host.swift in Sources */,
+				EC40AF970C0BE24824B96A21875EE236 /* HTTPRequest.swift in Sources */,
+				46432E51F185FE146D10823FCA931EBE /* HTTPRequestHandler.swift in Sources */,
+				32E3DE10C829D959A44A19414A2FC817 /* HTTPResponse.swift in Sources */,
+				822206100F35F81CDCAB5170BAEE59B1 /* HTTPRoute.swift in Sources */,
+				87461AB3BF713737069793E6B0413195 /* HTTPRouteHandler.swift in Sources */,
+				8E6D1CCD7595529EA03B939639848FBE /* HTTPStatus.swift in Sources */,
+				D5F7DEE8B781A3965DEA12C333095D0A /* HTTPVersion.swift in Sources */,
+				C97F26E513EC811C1DE4F7437CC3DD2C /* HTTPWebSocketHandler.swift in Sources */,
+				742B449C629A697EF7CD475797E92760 /* KeychainError.swift in Sources */,
+				CA61AA3B107D4E01591F7F9C26DC7B0C /* KeychainManager.swift in Sources */,
+				91BF045F1B7D98A04841CECE53550200 /* NSRegularExpression+Ext.swift in Sources */,
+				9EDD5C216BB893DC14EAB3A8873DEC09 /* RFC1123.swift in Sources */,
+				E5A8763810684EB8C2056A7D65C6CF3B /* Server+Config.swift in Sources */,
+				4509AC74916C490CA4CFED4F0E38169C /* Server+Routing.swift in Sources */,
+				725FC19AE8116F30FAD6B94A85E749E7 /* Server.swift in Sources */,
+				AE9D629091B4FCB016044F9B9268551E /* ServerDelegates.swift in Sources */,
+				6800C83C080AA149B662CF9E2AE6573B /* SHA1.swift in Sources */,
+				FE1124A35F8E8F209460574A73675342 /* Streams.swift in Sources */,
+				715132D932CB6276333935065C11EB74 /* String+Ext.swift in Sources */,
+				6C5EF4DE61901D1C699324F143F37A51 /* SynchronizedSet.swift in Sources */,
+				E0EB624C330E441DC270274845AC5FE8 /* TCPConnection.swift in Sources */,
+				A4E040FF308B59FA1C1FA75165B646D8 /* TCPListener.swift in Sources */,
+				A3ECBF0B4276E34F1B8A7BDDDEE1FDD3 /* TCPSocket.swift in Sources */,
+				B01635C60DD5E23B7756C14632EC79FA /* Telegraph-dummy.m in Sources */,
+				03EFDBF65DDDA8F3D79978DA9BF235DA /* TLSConfig.swift in Sources */,
+				D845FAC34FF08B6059323CD1377DC6BC /* TLSPolicy.swift in Sources */,
+				5BE1C030884AED52990CEB67F315AA53 /* UInt+Ext.swift in Sources */,
+				3B3E6E08DE0B3FC34D4C004A53122075 /* URI.swift in Sources */,
+				32C7A00CCCCAC124131CBA8A8E747A5A /* URL+Ext.swift in Sources */,
+				9E934C227A99CE07EA369FD4C5F180F5 /* WebSocket.swift in Sources */,
+				EC27CF82F5570AD9FCB4527F617EC287 /* WebSocketClient.swift in Sources */,
+				16AD82CE4F10923BC755FB3AD832BC8E /* WebSocketClientError.swift in Sources */,
+				B8077F25A5D8B8ABB1BFFDB42CB0A991 /* WebSocketConfig.swift in Sources */,
+				85596501B77538C4CB5182A1E3599081 /* WebSocketConnection.swift in Sources */,
+				09C39545C2A2D3E34C167813F10EEAFB /* WebSocketError.swift in Sources */,
+				DD30FB2A62DA3116479EBB5E501CC068 /* WebSocketErrorDefaultHandler.swift in Sources */,
+				A3537D90F1C168F27746F83AEF007EAC /* WebSocketErrorHandler.swift in Sources */,
+				2DC36E58ADBBE456D09579B3C880A7A3 /* WebSocketMessage+Write.swift in Sources */,
+				EBA2B6A22776D8010FE93A9C72348C9C /* WebSocketMessage.swift in Sources */,
+				2157ACED6AC272AC23EF64EE03B77C2A /* WebSocketMessageDefaultHandler.swift in Sources */,
+				F02961BC30292C2F12A4BF56C7170911 /* WebSocketMessageHandler.swift in Sources */,
+				26BF6CF20D1C6D5B9FFB71EC9C11DCF9 /* WebSocketParser.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,19 +873,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6FBA1C70F267850D87C6E4D95EB0649C /* Sources */ = {
+		748F8FCAE08E6AD871BA9158622697D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31DD4BF0712B434E2D0CF31F9227DF66 /* Pods-JaredTests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A1A1DBAC34252E10D19371BDE0E14675 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2F061C8AA9875557042578D02F0C13DE /* Pods-Jared-dummy.m in Sources */,
+				AA86CB721F287370C5869BD79D162947 /* Pods-Jared-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -898,56 +890,64 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E6DD5E137D888B7B8078B0C3A477E441 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6745972A8B24C664B4F88EF9C2B48C12 /* Pods-JaredTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		0F06E57C199292FBAFF01A4FA62ACC2C /* PBXTargetDependency */ = {
+		0AE0B8CB4157062AF8F3496456E3E096 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = 034C02AE0AD2B2B08A621CA8F84D8519 /* PBXContainerItemProxy */;
+		};
+		382CE41D4B3E349601C2AA758112FAD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = A70E90168AFE8F545FD005DBC0C44ADF /* PBXContainerItemProxy */;
+		};
+		58D38277375D5A122FDA968B2E8CCA9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaAsyncSocket;
+			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
+			targetProxy = DF987C6D55A54F409BCDEE477B169615 /* PBXContainerItemProxy */;
+		};
+		9D19125228F31953971F13B6AEE22CBC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTTPParserC;
 			target = B4B201235B25164DEA38800E31385E78 /* HTTPParserC */;
-			targetProxy = E41CAB731DBEB1644FB1DEBB9151DA97 /* PBXContainerItemProxy */;
+			targetProxy = B002DD358FED4EAFB7A4C3E1E55DB6F7 /* PBXContainerItemProxy */;
 		};
-		12739485813666EBE61E1700B0174548 /* PBXTargetDependency */ = {
+		A06A5404E458EBB8687A726C20B150E1 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTTPParserC;
 			target = B4B201235B25164DEA38800E31385E78 /* HTTPParserC */;
-			targetProxy = 3E6E87B9637ED4DB93AA9DFA8B439E8A /* PBXContainerItemProxy */;
+			targetProxy = 1706797452A3436EAA9C15A1C7620CD0 /* PBXContainerItemProxy */;
 		};
-		3FB202CB4F3761946F537BA93B8088E0 /* PBXTargetDependency */ = {
+		A76520905C4629D8A016AA013E77043D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Telegraph;
 			target = 620D34D36CFC8F661EA7AC3834005886 /* Telegraph */;
-			targetProxy = B8E21AD1C0BA63B90797EA60B35EC8BA /* PBXContainerItemProxy */;
+			targetProxy = C733237CA5031166C39721A9377BF109 /* PBXContainerItemProxy */;
 		};
-		6EBD84F3B309A59F78AEA35D5B67A566 /* PBXTargetDependency */ = {
+		DCD64F80D96751B3461B5AE8658BCE33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HTTPParserC;
 			target = B4B201235B25164DEA38800E31385E78 /* HTTPParserC */;
-			targetProxy = 35D75A8E0B17F13878C3D48048C7AA72 /* PBXContainerItemProxy */;
+			targetProxy = 5BE738FC0D99C26171DDC5BBAADA5F17 /* PBXContainerItemProxy */;
 		};
-		77D3E30DF9E3070C698A473E4DC367CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 26123DF5BE4C3DC2E9AFA74B17F20012 /* PBXContainerItemProxy */;
-		};
-		C1D82045A229408C4CC7E1E50D2941C1 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 2BF38BDBDF207D10F00A44BFE2568C0D /* PBXContainerItemProxy */;
-		};
-		E83B82A820DEAFD877605D5676129969 /* PBXTargetDependency */ = {
+		DEE1E07F06DB93A947F3BDC91A32A438 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Telegraph;
 			target = 620D34D36CFC8F661EA7AC3834005886 /* Telegraph */;
-			targetProxy = 6F844A0A0E9C700719F703708FA5F48D /* PBXContainerItemProxy */;
-		};
-		FAF8B18046EEBBD0E73595F7F03D2240 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CocoaAsyncSocket;
-			target = 6083682834ABE0AE7BD1CBF06CADD036 /* CocoaAsyncSocket */;
-			targetProxy = 89E8D6D0BE369613678D10C088EDE264 /* PBXContainerItemProxy */;
+			targetProxy = D4149F61942B24CE3C2333868E9795FE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -985,11 +985,10 @@
 			};
 			name = Debug;
 		};
-		239098F57BC3027C0EFC5C3431CCDF8B /* Release */ = {
+		27C5FFC830210697E024994DC6500F17 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5ED4E4923D12DB893B7F2D1B1E5B590B /* Pods-Jared.release.xcconfig */;
+			baseConfigurationReference = 7F68B4F4FC88EEB04727B0787BF33E8B /* Telegraph.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1003,19 +1002,17 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Jared/Pods-Jared-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Telegraph/Telegraph-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Telegraph/Telegraph-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-Jared/Pods-Jared.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MODULEMAP_FILE = "Target Support Files/Telegraph/Telegraph.modulemap";
+				PRODUCT_MODULE_NAME = Telegraph;
+				PRODUCT_NAME = Telegraph;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.2.5;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1110,43 +1107,6 @@
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.2.5;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		47FD494C69B27711B04299BBD51FA88B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A5523C152E4FBA231DE7DC030422AB89 /* Pods-JaredTests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-JaredTests/Pods-JaredTests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-JaredTests/Pods-JaredTests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = macosx;
-				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 5.2.5;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1250,7 +1210,44 @@
 			};
 			name = Debug;
 		};
-		92E237B9D3115DF438F00CE4F0FDEBCA /* Debug */ = {
+		870D4AAE25DF2403DCE4219DB0ABA68F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE6C1783EBD9F10D56CCD6578CD49006 /* Pods-Jared.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "Target Support Files/Pods-Jared/Pods-Jared-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jared/Pods-Jared.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.2.5;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		90742C5B7A144864E3EF4EFA66408E18 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 3B1774D5F93F7081BEB918F112615F73 /* Telegraph.debug.xcconfig */;
 			buildSettings = {
@@ -1284,10 +1281,11 @@
 			};
 			name = Debug;
 		};
-		AD5009133D31E00872C985658737E19D /* Release */ = {
+		C10A7491B8F5E969BAB4032AB1688EC1 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F68B4F4FC88EEB04727B0787BF33E8B /* Telegraph.release.xcconfig */;
+			baseConfigurationReference = 5ED4E4923D12DB893B7F2D1B1E5B590B /* Pods-Jared.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -1301,24 +1299,26 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				GCC_PREFIX_HEADER = "Target Support Files/Telegraph/Telegraph-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Telegraph/Telegraph-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-Jared/Pods-Jared-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
-				MACOSX_DEPLOYMENT_TARGET = 10.10;
-				MODULEMAP_FILE = "Target Support Files/Telegraph/Telegraph.modulemap";
-				PRODUCT_MODULE_NAME = Telegraph;
-				PRODUCT_NAME = Telegraph;
+				MACH_O_TYPE = staticlib;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MODULEMAP_FILE = "Target Support Files/Pods-Jared/Pods-Jared.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.2.5;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		B74ACBF034D451408A185AD5B092211B /* Release */ = {
+		C5F28674C79E147DA68A2EBDFEF976FD /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 58D8987D7D368FC481D17C864DA877BF /* Pods-JaredTests.release.xcconfig */;
 			buildSettings = {
@@ -1355,9 +1355,9 @@
 			};
 			name = Release;
 		};
-		CC3C77C2FDB0D240C69D3A82F28E8D53 /* Debug */ = {
+		CFBF99905EC2E18120A55EAE2A5A3DC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = BE6C1783EBD9F10D56CCD6578CD49006 /* Pods-Jared.debug.xcconfig */;
+			baseConfigurationReference = A5523C152E4FBA231DE7DC030422AB89 /* Pods-JaredTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
@@ -1373,12 +1373,12 @@
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = "Target Support Files/Pods-Jared/Pods-Jared-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-JaredTests/Pods-JaredTests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MODULEMAP_FILE = "Target Support Files/Pods-Jared/Pods-Jared.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-JaredTests/Pods-JaredTests.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
@@ -1429,11 +1429,29 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		10BED8FEFEA3E91ADC018D9D39501369 /* Build configuration list for PBXNativeTarget "Pods-Jared" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				870D4AAE25DF2403DCE4219DB0ABA68F /* Debug */,
+				C10A7491B8F5E969BAB4032AB1688EC1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				816C679D58750316935F7386A438309D /* Debug */,
 				2AE0D8B39827576460938522CAB2F560 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		544A5F81AE8D1AEB1361C573EB6DB845 /* Build configuration list for PBXNativeTarget "Telegraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90742C5B7A144864E3EF4EFA66408E18 /* Debug */,
+				27C5FFC830210697E024994DC6500F17 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1447,38 +1465,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		9267CAEA5AC105E4C802368C2DAE3EAE /* Build configuration list for PBXNativeTarget "Pods-JaredTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFBF99905EC2E18120A55EAE2A5A3DC9 /* Debug */,
+				C5F28674C79E147DA68A2EBDFEF976FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		9AE52AC44EB5BDB9DCABA6DB94264558 /* Build configuration list for PBXNativeTarget "HTTPParserC" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2BC4F89869DE9D0841989812363EF131 /* Debug */,
 				D360C4CED9D9D104D55540B3993FDF45 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8AD3D818A41CA3F59181950639F6458 /* Build configuration list for PBXNativeTarget "Telegraph" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				92E237B9D3115DF438F00CE4F0FDEBCA /* Debug */,
-				AD5009133D31E00872C985658737E19D /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		C45FB1C9EF9ED8F82F1CBCE6860EA7A6 /* Build configuration list for PBXNativeTarget "Pods-Jared" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CC3C77C2FDB0D240C69D3A82F28E8D53 /* Debug */,
-				239098F57BC3027C0EFC5C3431CCDF8B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		ECBD45E2941752B5081324C137694EA3 /* Build configuration list for PBXNativeTarget "Pods-JaredTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				47FD494C69B27711B04299BBD51FA88B /* Debug */,
-				B74ACBF034D451408A185AD5B092211B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

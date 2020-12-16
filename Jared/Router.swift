@@ -6,6 +6,7 @@
 //  Copyright © 2020 Zeke Snider. All rights reserved.
 //
 
+import AppKit
 import Foundation
 import JaredFramework
 
@@ -81,7 +82,29 @@ class Router : RouterDelegate {
                         route.call(myMessage)
                     }
                 }
+                else if comparison.0 == .isMFA {
+                    if let MFA = myLowercaseMessage.optional4or6DigitMFA() {
+                        
+                        // Set string to clipboard
+                        let pasteboard = NSPasteboard.general
+                        pasteboard.declareTypes([NSPasteboard.PasteboardType.string], owner: nil)
+                        pasteboard.setString(MFA, forType: NSPasteboard.PasteboardType.string)
+                        NSSound.beep()
+                        print("GOT MFA: \(MFA) ... Copying to clipboard")
+                    }
+                }
             }
         }
+    }
+}
+
+extension String {
+    func optional4or6DigitMFA() -> String?{
+        let regex = try! NSRegularExpression(pattern: "(\\d{2,3}\\-?\\d{2,3})")
+        let range = NSRange(location: 0, length: self.utf16.count)
+        if let match = regex.matches(in: self, options: [], range: range).last {
+            return (self as NSString).substring(with: match.range)
+        }
+        return nil
     }
 }

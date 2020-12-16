@@ -83,7 +83,10 @@ class InternalModule: RoutingModule {
         let documentation = Route(name:"/help", comparisons: [.startsWith: ["/help"]], call: {[weak self] in self?.sendDocumentation($0)}, description: NSLocalizedString("helpDescription"))
         let reload = Route(name:"/reload", comparisons: [.startsWith: ["/reload"]], call: {[weak self] in self?.self.reload($0)}, description: NSLocalizedString("reloadDescription"))
         
-        routes = [enable, disable, documentation, reload]
+        
+        let mfaCheck = Route(name:"MFA Check", comparisons: [.isMFA: ["/mfa"]], call: {[weak self] in self?.self.sendMFAClipboardAndMakeNoise($0)}, description:"MFS checking is on")
+        
+        routes = [enable, disable, documentation, reload, mfaCheck]
     }
     
     func enable(_ message: Message) -> Void {
@@ -99,6 +102,11 @@ class InternalModule: RoutingModule {
     func reload(_ message: Message) -> Void {
         pluginManager?.reload()
         sender.send(NSLocalizedString("reloadMessage"), to: message.RespondTo())
+    }
+    
+    func sendMFAClipboardAndMakeNoise(_ message: Message) -> Void {
+        // make noise
+        NSSound.beep()
     }
     
     func sendDocumentation(_ message: Message) {
